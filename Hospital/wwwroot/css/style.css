@@ -1491,3 +1491,48 @@ a:focus {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+
+@media (max-width:989px) {
+    .feature-item p{
+        font-size: 35px;
+    }
+
+    body p {
+        font-size: 35px;
+    }
+
+    body {
+        font-size: 35px;
+    }
+
+    .text-sm {
+        font-size: 35px;
+    }
+
+    img {
+        height: 130px;
+    }
+
+    .navbar-toggler {
+        font-size: 50px;
+    }
+
+    #navbarmain .nav-link {
+        font-size: 35px;
+    }
+
+    .header-top-bar {
+        font-size: 20px;
+    }
+
+    h4, .h4 {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 900px;
+    }
+}
