@@ -47,7 +47,8 @@
                 <div class="position-relative doctor-inner-box">
                     <div class="doctor-profile">
                         <div class="doctor-img">
-                            <img src="~/images/docm.png" alt="doctor-image" class="img-fluid w-100">
+                                <img src="~/images/@(string.IsNullOrEmpty(item.Image)? "docm.png" : "doctor/" + item.Image )" alt="doctor-image" class="img-fluid w-100">
+
                         </div>
                     </div>
                     <div class="content mt-3">
