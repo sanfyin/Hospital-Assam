@@ -50,8 +50,10 @@
                     new Doctor("Dr Aniruddha Deuri","MD Anaesthesiology and critical care","Senior Consultant Anaesthesiology & Pain Medicine","Pain and palliative care", "anirudha.jpg"),
 					new Doctor("Dr Hridoy Kumar Das","MD","Consultant Critical care Medicine","Anaesthesia and Critical care","hridoy.jpg"),
 					new Doctor("Dr Momi Das","","Consultant Pathologist","Diagnostic Lab Services","momi.jpg"),
-                    new Doctor("Dr Rajeev Paul","MBBS,MS,Mch","Senior Consultant","Oncosurgery","rajeev.jpg"),
-                    new Doctor("Dr Farhana Rahman","","Consultant","Dermatology and Cosmetology","farhana.jpg")
+                    new Doctor("Dr Rajiv Paul","MBBS,MS,Mch","Senior Consultant","Oncosurgery","rajeev.jpg"),
+                    new Doctor("Dr Farhana Rahman","","Consultant","Dermatology and Cosmetology","farhana.jpg"),
+                    new Doctor("Dr Jyotirmoy Das","MBBS, MD Neuropsychiatry","Senior Consultant","Neuropsychiatrist and De-addiction Specialist","jyotirmoy.jpg"),
+                    new Doctor("Dr Kankan Jyoti Deka","Master in Molecular Oncology (ESO) Ex Fellow, TATA Medical Center (K).","","Radiation and Clinical Oncologist","kankan.jpg"),
                 };
             }
         }
