@@ -55,3 +55,14 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3BB161F916584C91B08BFA05F759CD54 }}
           package: .
+
+      - name: FTP-Deploy-Action
+        uses: SamKirkland/FTP-Deploy-Action@2.0.0
+        env:
+          FTP_SERVER: 'ngmhospital.in'
+          FTP_USERNAME: 'ngmhadmin'
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          LOCAL_DIR: build
+          METHOD: sftp
+          PORT: 22
+          ARGS: --delete
