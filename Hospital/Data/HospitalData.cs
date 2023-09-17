@@ -54,6 +54,7 @@
                     new Doctor("Dr Farhana Rahman","","Consultant","Dermatology and Cosmetology","farhana.jpg"),
                     new Doctor("Dr Jyotirmoy Das","MBBS, MD Neuropsychiatry","Senior Consultant","Neuropsychiatrist and De-addiction Specialist","jyotirmoy.jpg"),
                     new Doctor("Dr Kankan Jyoti Deka","Master in Molecular Oncology (ESO) Ex Fellow, TATA Medical Center (K).","","Radiation and Clinical Oncologist","kankan.jpg"),
+                    new Doctor("Dr Binay Agarwal","Mch","Senior Consultant","Nurosurgery","binoy.jpg"),
                 };
             }
         }
