@@ -53,7 +53,3 @@ jobs:
           FTP_SERVER: 'ngmhospital.in'
           FTP_USERNAME: 'ngmhadmin'
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-          LOCAL_DIR: build
-          METHOD: ftp
-          PORT: 21
-          ARGS: --delete
